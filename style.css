@@ -353,13 +353,13 @@ body {
 }
 
 .pre-btn{
-    top: 240px;
+    top: 450px;
     left: 0;
     background: linear-gradient(to right, #0c111b, #0c111b00);
 }
 
 .nxt-btn{
-    top: 240px;
+    top: 450px;
     right: 0;
     background: linear-gradient(to right, #0c111b, #0c111b00);
 }
