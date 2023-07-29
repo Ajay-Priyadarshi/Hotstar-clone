@@ -6,7 +6,6 @@
     });
   });
 
-
 // Video Cards
 
 const videoCards = [...document.querySelectorAll(".video-card")];
