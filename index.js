@@ -1,3 +1,12 @@
+//Automatic Carousel
+
+  $(document).ready(function() {
+    $('#carouselExampleIndicators').carousel({
+      interval: 1200
+    });
+  });
+
+
 // Video Cards
 
 const videoCards = [...document.querySelectorAll(".video-card")];
@@ -16,8 +25,8 @@ videoCards.forEach((item) => {
 //Card Slider
 
 let cardContainers = [...document.querySelectorAll(".card-container")];
-let preBtn = [...document.querySelectorAll(".pre-btn")];
-let nxtBtn = [...document.querySelectorAll(".nxt-btn")];
+let preBtn = [...document.querySelectorAll(".pb")];
+let nxtBtn = [...document.querySelectorAll(".nb")];
 
 cardContainers.forEach((item, i) => {
     let containerDimensions = item.getBoundingClientRect();

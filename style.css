@@ -92,11 +92,8 @@ body {
 .carousel {
     position: relative;
     top: 80px;
-    width: 70%;
-    display: flex;
-    left: 200px;
-    border-radius: 50px;
 }
+
 
 .movie-title {
     padding-left: 50px;
@@ -106,18 +103,23 @@ body {
 }
 
 .cr-image {
-    height: 500px;
     border: 3px solid white;
     border-radius: 50px;
 }
 
 .watch-btn {
+    margin-bottom: 20px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.15);
     height: 50px;
     width: 280px;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.con {
+    display: flex;
+    gap: 30px;
 }
 
 .plus {
@@ -155,11 +157,6 @@ body {
     color: rgba(255, 255, 255, 0.9);
     font-size: 25px;
     font-weight: 650;
-}
-
-.con {
-    display: flex;
-    gap: 30px;
 }
 
 .video-card-container {
@@ -216,28 +213,7 @@ body {
     margin: 10px 0 20px;
 }
 
-.movie-list2 {
-    width: 100%;
-    height: 220px;
-    position: relative;
-    margin: 10px 0 20px;
-}
-
 .card-container {
-    position: relative;
-    top: 100px;
-    width: 92%;
-    padding-left: 10px;
-    min-height: 220px;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    overflow-x: auto;
-    overflow-y: visible;
-    scroll-behavior: smooth;
-}
-
-.card-container2 {
     position: relative;
     top: 100px;
     width: 92%;
@@ -343,8 +319,8 @@ body {
     background: rgba(255, 255, 255, 0.1);
 }
 
-.pre-btn,
-.nxt-btn {
+.pb,
+.nb {
     position: absolute;
     top: 0;
     width: 5%;
@@ -355,27 +331,27 @@ body {
     outline: none;
 }
 
-.pre-btn {
-    top: 820px;
+.pb {
+    top: 940px;
     left: 0;
     background: transparent;
 }
 
-.nxt-btn {
-    top: 820px;
+.nb {
+    top: 940px;
     right: 0;
     background: transparent;
 }
 
-.pre-btn img,
-.nxt-btn img {
+.pb img,
+.nb img {
     width: 15px;
     height: 20px;
     opacity: 0;
 }
 
-.pre-btn:hover img,
-.nxt-btn:hover img {
+.pb:hover img,
+.nb:hover img {
     opacity: 1;
 }
 
