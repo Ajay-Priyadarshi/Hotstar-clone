@@ -1,2 +1,4 @@
-# Hotstar-clone
-Hotstart clone using html css js and bootstrap.
+# hotstar
+Images-and videos
+Star to repo is appreciated.
+This repo only contain images and videos. 
