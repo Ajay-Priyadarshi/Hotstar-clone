@@ -215,7 +215,26 @@ body {
     position: relative;
     margin: 10px 0 20px;
 }
+.movie-list2{
+    width: 100%;
+    height: 220px;
+    position: relative;
+    margin: 10px 0 20px;
+}
 .card-container{
+    position: relative;
+    top: 100px;
+    width: 92%;
+    padding-left: 10px;
+    min-height: 220px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-behavior: smooth;
+}
+.card-container2{
     position: relative;
     top: 100px;
     width: 92%;
@@ -334,15 +353,15 @@ body {
 }
 
 .pre-btn{
-    top: 450px;
+    top: 240px;
     left: 0;
     background: linear-gradient(to right, #0c111b, #0c111b00);
 }
 
 .nxt-btn{
-    top: 450px;
-   right: 0;
-   background: linear-gradient(to right, #0c111b, #0c111b00);
+    top: 240px;
+    right: 0;
+    background: linear-gradient(to right, #0c111b, #0c111b00);
 }
 
 .pre-btn img,
